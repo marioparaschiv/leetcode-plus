@@ -1,0 +1,1 @@
+export { default as premium } from './premium';

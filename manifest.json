@@ -1,0 +1,26 @@
+{
+	"name": "LeetCode+",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"web_accessible_resources": [
+		{
+			"matches": [
+				"*://leetcode.com/*"
+			],
+			"resources": [
+				"src/index.js"
+			]
+		}
+	],
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"*://leetcode.com/*"
+			],
+			"js": [
+				"src/init.ts"
+			]
+		}
+	]
+}

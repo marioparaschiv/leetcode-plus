@@ -1,0 +1,25 @@
+{
+	"name": "leetcode-plus",
+	"module": "src/index.ts",
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"dev": "sudo vite dev"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/webextension-polyfill": "^0.12.1",
+		"vite-tsconfig-paths": "^5.0.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"vite": "^5.4.9",
+		"vite-plugin-web-extension": "^4.2.0",
+		"webextension-polyfill": "^0.12.0"
+	},
+	"trustedDependencies": [
+		"spawn-sync"
+	]
+}

@@ -2,7 +2,7 @@
 
 <div align='center'>
    <h3>📝 LeetCode+</h3>
-   <p>A client modification for LeetCode. (WIP)</p>
+   <p>A client modification for LeetCode.</p>
 </div>
 
 ---

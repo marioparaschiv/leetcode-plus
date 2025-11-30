@@ -14,7 +14,8 @@
 - Add the `dist` (or .zip if you are using a pre-built release) folder as an extension.
 - Enjoy.
 
-
+# Current Features
+- Free Premium 
 
 ## Pre-requisites
 - [Bun](https://bun.sh/)
